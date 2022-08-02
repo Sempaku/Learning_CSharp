@@ -55,3 +55,7 @@
       - [Basics of model validation](https://github.com/Sempaku/Learning_CSharp/tree/master/Basics%20of%20C%23/Validation%20of%20the%20model/Basics%20of%20model%20validation)
       - [Model self-validation](https://github.com/Sempaku/Learning_CSharp/tree/master/Basics%20of%20C%23/Validation%20of%20the%20model/Model%20self-validation)
       - [Creating your own validation attributes](https://github.com/Sempaku/Learning_CSharp/tree/master/Basics%20of%20C%23/Validation%20of%20the%20model/Creating%20your%20own%20validation%20attributes)
+
++ Сетевое программирование на C#  
+  - [Addresses in .NET](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/Addresses%20in%20.NET)
+  - []() 

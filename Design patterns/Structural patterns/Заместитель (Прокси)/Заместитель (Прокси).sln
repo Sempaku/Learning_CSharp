@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Заместитель (Прокси)", "Заместитель (Прокси).csproj", "{3E7FC1E2-FEF1-45BB-A1A9-C053E5A754AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E7FC1E2-FEF1-45BB-A1A9-C053E5A754AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7FC1E2-FEF1-45BB-A1A9-C053E5A754AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7FC1E2-FEF1-45BB-A1A9-C053E5A754AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7FC1E2-FEF1-45BB-A1A9-C053E5A754AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {964EEABB-B926-4284-8C31-6443F8559D21}
+	EndGlobalSection
+EndGlobal

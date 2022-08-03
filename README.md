@@ -110,6 +110,10 @@
       - [Мост (Bridge)](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Structural%20patterns/Мост%20(Bridge))
       - [Приспособленец (Flyweight)](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Structural%20patterns/Приспособленец%20(Flyweight))
       - [Фасад (Facade)](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Structural%20patterns/Фасад%20(Facade))
-  5) []()
-      -[]()
+  5) [Принципы SOLID](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Solid)
+      - [S - Принцип единственной обязанности](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Solid/(S)%20Single%20responsibility%20principle)
+      - [O - Принцип открытости/закрытости](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Solid/(O)%20Open_Closed%20Principle)
+      - [L - Принцип подстановки Лисков](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Solid/(L)%20Liskov%20Substitution%20Principle)
+      - [I - Принцип разделения интерфейсов](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Solid/(I)%20Interface%20Segregation%20Principle)
+      - [D - Принцип инверсии зависимостей](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Solid/(D)%20Dependency%20Inversion%20Principle)
       

@@ -24,17 +24,7 @@ namespace Асинхронные_стримы
             }
         }
         void Tire() => Console.WriteLine("______________________");
-
-        //______________________________________________________________
-        //Где можно применять асинхронные стримы?
-        //Асинхронные стримы могут применяться для получения данных из какого-нибудь внешнего хранилища
-
-        /*readonly Repository repo = new Repository();
-        IAsyncEnumerable<string> data = repo.GetDataAsync();
-        await foreach (var name in data)
-        {
-            Console.WriteLine(name);
-        }*/
+        
 
         class Repository
         {

@@ -9,8 +9,6 @@ namespace Исследование_методов_и_конструкторов_
         static void Main(string[] args)
         {
             //Получение информации о методах
-            //Для получения получении информации отдельно о методах применяется метод GetMethods().
-            //Этот метод возвращает все методы типа в виде массива объектов MethodInfo
 
             Type myType = typeof(Printer);
 
@@ -32,11 +30,7 @@ namespace Исследование_методов_и_конструкторов_
             //_______________________________________________________________________________
             // BindingFlags
 
-            //В примере выше использовалась простая форма метода GetMethods(),
-            //которая извлекает все общедоступные публичные методы.
-            //Но мы можем использовать и другую форму метода: MethodInfo[] GetMethods(BindingFlags).
-            //Объединяя значения BindingFlags можно комбинировать вывод
-
+            
             Console.WriteLine("Methods: ");
             foreach(MethodInfo method in myType.GetMethods(BindingFlags.DeclaredOnly
                                 | BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public))
@@ -46,9 +40,6 @@ namespace Исследование_методов_и_конструкторов_
             Console.WriteLine("_________________________");
             //______________________________________________________________________________
             //Исследование параметров
-
-            //С помощью метода GetParameters() можно получить все параметры метода
-            //в виде массива объектов ParameterInfo
 
             foreach(MethodInfo metod in typeof(Printer).GetMethods())
             {
@@ -77,8 +68,6 @@ namespace Исследование_методов_и_конструкторов_
             //______________________________________________________________________
             //Вызов методов
 
-            //С помощью метода Invoke() можно вызвать метод:
-            //public object? Invoke (object? obj, object?[]? parameters);
 
             var myPrinter = new Printer2("Hello");
             var print = typeof(Printer2).GetMethod("Print");
@@ -89,10 +78,6 @@ namespace Исследование_методов_и_конструкторов_
             Console.WriteLine("____________________________________");
             //_________________________________________________________
             //Получение конструкторов
-
-            //Для получения конструкторов применяется метод GetConstructors(),
-            //который возвращает массив объектов класса ConstructorInfo.
-            //Этот класс во многом похож на MethodInfo и имеет ряд общей функциональности
 
             Type typePerson = typeof(Person);
 

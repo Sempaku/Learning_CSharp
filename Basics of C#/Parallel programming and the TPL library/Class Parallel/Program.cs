@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-//Класс Parallel также является частью TPL и предназначен для упрощения параллельного выполнения кода.
-//Parallel имеет ряд методов, которые позволяют распараллелить задачу.
-
 namespace Класс_Parallel
 {
     internal class Program
@@ -36,27 +33,15 @@ namespace Класс_Parallel
                 Console.WriteLine($"Результат {n * n}");
             }
 
-            //____________________________________________________________________
-            // Parallel.For
-            //Метод Parallel.For позволяет выполнять итерации цикла параллельно. Он имеет следующее определение:
-            //For(int,int,Action<int>)
+            //____________________________________________________________________            
             Console.WriteLine("_________________________");
             Parallel.For(1, 5, Square);
 
             //________________________________________________________________________
-            // Parallel.ForEach
-            // Метод Parallel.ForEach осуществляет итерацию по коллекции, реализующей интерфейс IEnumerable,
-            // подобно циклу foreach, только осуществляет параллельное выполнение перебора.
-            // Он имеет следующее определение:
-            // ParallelLoopResult ForEach<TSourse>(IEnumerable<TSourse> sourse, Action<TSourse> body)
             Console.WriteLine("_________________________");
             ParallelLoopResult result = Parallel.ForEach<int>(new List<int>() { 1, 3, 5, 8 }, Square);
 
-            //________________________________________________________________________________________
-            // Выход из цикла
-            // В стандартных циклах for и foreach предусмотрен преждевременный выход из цикла
-            // с помощью оператора break. В методах Parallel.ForEach и Parallel.For мы также можем,
-            // не дожидаясь окончания цикла, выйти из него:
+            //________________________________________________________________________________________            
 
             Console.WriteLine("______________________________________");
             ParallelLoopResult result2 = Parallel.For(1, 10, SquareWithBreak);

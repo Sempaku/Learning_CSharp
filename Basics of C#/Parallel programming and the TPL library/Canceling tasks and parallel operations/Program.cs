@@ -3,26 +3,6 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-//Параллельное выполнение задач может занимать много времени.
-//И иногда может возникнуть необходимость прервать выполняемую задачу.
-//Для этого платформа .NET предоставляет структуру CancellationToken из пространства имен System.Threading.
-
-/*Общий алгоритм отмены задачи обычно предусматривает следующий порядок действий:
- 1 - Создание объекта CancellationTokenSource, который управляет и посылает уведомление об отмене токену.
- 2 - С помощью свойства CancellationTokenSource.Token получаем собственно токен - объект структуры CancellationToken
- и передаем его в задачу, которая может быть отменена.
- 3 - Определяем в задаче действия на случай ее отмены.
- 4 - Вызываем метод CancellationTokenSource.Cancel(),
- который устанавливает для свойства CancellationToken.IsCancellationRequested значение true.
- Стоит понимать, что сам по себе метод CancellationTokenSource.Cancel() не отменяет задачу,
- он лишь посылает уведомление об отмене через установку свойства CancellationToken.IsCancellationRequested.
- Каким образом будет происходить выход из задачи, это решает сам разработчик.
- 5 - Класс CancellationTokenSource реализует интерфейс IDisposable.
- И когда работа с объектом CancellationTokenSource завершена,
- у него следует вызвать метод Dispose для освобождения всех связанных с ним используемых ресурсов.
- (Вместо явного вызова метода Dispose можно использовать конструкцию using).
-*/
-
 namespace Отмена_задач_и_параллельных_операций
 {
     internal class Program
@@ -178,10 +158,7 @@ namespace Отмена_задач_и_параллельных_операций
 
             //_____________________________________________________
             //Отмена параллельных операций Parallel
-            Tire();
-            //Для отмены выполнения параллельных операций, запущенных с помощью методов
-            //Parallel.For() и Parallel.ForEach(), можно использовать перегруженные версии данных методов,
-            //которые принимают в качестве параметра объект ParallelOptions
+            Tire();            
 
             CancellationTokenSource cancelTokenSource5 = new CancellationTokenSource();
             CancellationToken token5 = cancelTokenSource5.Token;

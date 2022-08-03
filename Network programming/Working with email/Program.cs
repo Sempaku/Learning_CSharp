@@ -19,7 +19,7 @@ namespace Работа_с_электронной_почтой
 
             // адрес smtp-сервера и порт, с которого будем отправлять письмо
             SmtpClient smtp = new SmtpClient("smtp.gmail.com",465);
-            smtp.Credentials = new NetworkCredential("cemen72421@gmail.com", "vecjh228337");
+            smtp.Credentials = new NetworkCredential("cemen72421@gmail.com", "password");
             smtp.EnableSsl = true;
             smtp.Send(m);
             Console.Read();

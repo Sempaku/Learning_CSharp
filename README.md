@@ -55,7 +55,7 @@
       - [Basics of model validation](https://github.com/Sempaku/Learning_CSharp/tree/master/Basics%20of%20C%23/Validation%20of%20the%20model/Basics%20of%20model%20validation)
       - [Model self-validation](https://github.com/Sempaku/Learning_CSharp/tree/master/Basics%20of%20C%23/Validation%20of%20the%20model/Model%20self-validation)
       - [Creating your own validation attributes](https://github.com/Sempaku/Learning_CSharp/tree/master/Basics%20of%20C%23/Validation%20of%20the%20model/Creating%20your%20own%20validation%20attributes)
-
+____
 + Сетевое программирование на C#  
   1) [Basic work with networks](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/Basic%20work%20with%20networks)
       - [Addresses in .NET](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/Basic%20work%20with%20networks/Addresses%20in%20.NET)
@@ -79,7 +79,7 @@
       - [Broadcast](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/UDP%20Protocol/Broadcast)
       - [Chat with WinForms Broadcast](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/UDP%20Protocol/Chat%20with%20WinForms%20Broadcast)
   7) [Working with email](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/Working%20with%20email)
-      
+____
 + Паттерны проектирования
   1) [Основы паттернов проектирования](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Fundamentals%20of%20Design%20patterns)
       - [Relationships between classes and objects](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Fundamentals%20of%20Design%20patterns/Relationships%20between%20classes%20and%20objects)

@@ -80,3 +80,8 @@
       - [Chat with WinForms Broadcast](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/UDP%20Protocol/Chat%20with%20WinForms%20Broadcast)
   7) [Working with email](https://github.com/Sempaku/Learning_CSharp/tree/master/Network%20programming/Working%20with%20email)
       
++ Паттерны проектирования
+  1) [Основы паттернов проектирования](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Fundamentals%20of%20Design%20patterns)
+      - [Relationships between classes and objects](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Fundamentals%20of%20Design%20patterns/Relationships%20between%20classes%20and%20objects)
+      - [Interfaces or abstract classes](https://github.com/Sempaku/Learning_CSharp/tree/master/Design%20patterns/Fundamentals%20of%20Design%20patterns/Interfaces%20or%20abstract%20classes)
+  3)

@@ -2,16 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-//Существует несколько разновидностей LINQ:
-
-/*
-LINQ to Objects: применяется для работы с массивами и коллекциями
-LINQ to Entities: используется при обращении к базам данных через технологию Entity Framework
-LINQ to XML: применяется при работе с файлами XML
-LINQ to DataSet: применяется при работе с объектом DataSet
-Parallel LINQ (PLINQ): используется для выполнения параллельных запросов
-*/
-
 namespace Основы_LINQ
 {
     internal class Program
